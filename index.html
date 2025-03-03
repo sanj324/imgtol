@@ -124,6 +124,20 @@
     </section>
   </main>
 
+  <!-- Google AdMob Integration -->
+  <script>
+    window.onload = function() {
+      if (window.admob) {
+        admob.start({
+          appId: "ca-app-pub-3920234547081746~5933637934"
+        });
+        admob.banner.show({
+          adUnitId: "ca-app-pub-3920234547081746/4423209169"
+        });
+      }
+    };
+  </script>
+
   <footer>
     <p>&copy; 2025 PixSlim AI. All rights reserved.</p>
   </footer>
